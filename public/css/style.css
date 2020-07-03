@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+	font-family:'montserrat', 'sans-serif';
+}
+
+.card {
+	border-left:5px solid #007bff;
+	border-top:0;
+	border-right:0;
+	border-bottom:0;
+	margin:3rem 0 3rem 0;
+}
+
+.card-header {
+	text-align:center;
+	font-size:1.1rem !important;
+}
+
+footer {
+	text-align:center;
+	margin-bottom:3rem;
+}
+
+footer > a  {
+	text-decoration:none;
+}

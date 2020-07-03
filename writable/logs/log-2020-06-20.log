@@ -1,0 +1,88 @@
+CRITICAL - 2020-06-20 12:18:00 --> Undefined variable: base_url
+#0 /storage/emulated/0/crud_ci/app/Views/layouts/layout.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/storage/emulat...', 9, Array)
+#1 /storage/emulated/0/crud_ci/system/View/View.php(246): include('/storage/emulat...')
+#2 /storage/emulated/0/crud_ci/system/View/View.php(257): CodeIgniter\View\View->render('layouts/layout....', Array, true)
+#3 /storage/emulated/0/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 /storage/emulated/0/crud_ci/app/Controllers/Siswa.php(7): view('pages/index')
+#5 /storage/emulated/0/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#6 /storage/emulated/0/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 /storage/emulated/0/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /storage/emulated/0/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /storage/emulated/0/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/storage/emulat...')
+#10 {main}
+CRITICAL - 2020-06-20 12:18:00 --> Uncaught ErrorException: chmod(): Operation not permitted in /storage/emulated/0/crud_ci/system/Log/Handlers/FileHandler.php:157
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): Operat...', '/storage/emulat...', 157, Array)
+#1 /storage/emulated/0/crud_ci/system/Log/Handlers/FileHandler.php(157): chmod('/storage/emulat...', 420)
+#2 /storage/emulated/0/crud_ci/system/Log/Logger.php(381): CodeIgniter\Log\Handlers\FileHandler->handle('critical', 'Undefined varia...')
+#3 /storage/emulated/0/crud_ci/system/Common.php(724): CodeIgniter\Log\Logger->log('critical', 'Undefined varia...', Array)
+#4 /storage/emulated/0/crud_ci/system/Debug/Exceptions.php(154): log_message('critical', 'Undefined varia...', Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-20 12:21:18 --> Undefined variable: base_url
+#0 /data/data/com.termux/files/home/crud_ci/app/Views/layouts/layout.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/data/data/com....', 9, Array)
+#1 /data/data/com.termux/files/home/crud_ci/system/View/View.php(246): include('/data/data/com....')
+#2 /data/data/com.termux/files/home/crud_ci/system/View/View.php(257): CodeIgniter\View\View->render('layouts/layout....', Array, true)
+#3 /data/data/com.termux/files/home/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 /data/data/com.termux/files/home/crud_ci/app/Controllers/Siswa.php(7): view('pages/index')
+#5 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#6 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /data/data/com.termux/files/home/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /data/data/com.termux/files/home/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/data/data/com....')
+#10 {main}
+CRITICAL - 2020-06-20 12:23:01 --> Call to undefined method CodeIgniter\View\View::base_url()
+#0 /data/data/com.termux/files/home/crud_ci/system/View/View.php(246): include()
+#1 /data/data/com.termux/files/home/crud_ci/system/View/View.php(257): CodeIgniter\View\View->render('layouts/layout....', Array, true)
+#2 /data/data/com.termux/files/home/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#3 /data/data/com.termux/files/home/crud_ci/app/Controllers/Siswa.php(7): view('pages/index')
+#4 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#5 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /data/data/com.termux/files/home/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /data/data/com.termux/files/home/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/data/data/com....')
+#9 {main}
+CRITICAL - 2020-06-20 12:25:22 --> Call to undefined method CodeIgniter\View\View::base_url()
+#0 /data/data/com.termux/files/home/crud_ci/system/View/View.php(246): include()
+#1 /data/data/com.termux/files/home/crud_ci/system/View/View.php(257): CodeIgniter\View\View->render('layouts/layout....', Array, true)
+#2 /data/data/com.termux/files/home/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#3 /data/data/com.termux/files/home/crud_ci/app/Controllers/Siswa.php(7): view('pages/index')
+#4 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#5 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /data/data/com.termux/files/home/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /data/data/com.termux/files/home/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/data/data/com....')
+#9 {main}
+CRITICAL - 2020-06-20 12:25:47 --> Call to undefined method CodeIgniter\View\View::base_url()
+#0 /data/data/com.termux/files/home/crud_ci/system/View/View.php(246): include()
+#1 /data/data/com.termux/files/home/crud_ci/system/View/View.php(257): CodeIgniter\View\View->render('layouts/layout....', Array, true)
+#2 /data/data/com.termux/files/home/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#3 /data/data/com.termux/files/home/crud_ci/app/Controllers/Siswa.php(7): view('pages/index')
+#4 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#5 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 /data/data/com.termux/files/home/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /data/data/com.termux/files/home/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /data/data/com.termux/files/home/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/data/data/com....')
+#9 {main}
+CRITICAL - 2020-06-20 13:58:30 --> Trying to get property 'nama' of non-object
+#0 /storage/emulated/0/crud_ci/app/Views/pages/index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/storage/emulat...', 34, Array)
+#1 /storage/emulated/0/crud_ci/system/View/View.php(246): include('/storage/emulat...')
+#2 /storage/emulated/0/crud_ci/system/Common.php(1087): CodeIgniter\View\View->render('pages/index', Array, true)
+#3 /storage/emulated/0/crud_ci/app/Controllers/Siswa.php(18): view('pages/index', Array)
+#4 /storage/emulated/0/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->index()
+#5 /storage/emulated/0/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 /storage/emulated/0/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/emulated/0/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /storage/emulated/0/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/storage/emulat...')
+#9 {main}
+CRITICAL - 2020-06-20 23:57:01 --> Undefined variable: builder
+#0 /storage/emulated/0/crud_ci/app/Controllers/Siswa.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/storage/emulat...', 28, Array)
+#1 /storage/emulated/0/crud_ci/system/CodeIgniter.php(914): App\Controllers\Siswa->create()
+#2 /storage/emulated/0/crud_ci/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 /storage/emulated/0/crud_ci/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/emulated/0/crud_ci/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /storage/emulated/0/crud_ci/system/Commands/Server/rewrite.php(34): require_once('/storage/emulat...')
+#6 {main}
